@@ -2,11 +2,6 @@ name: Checks
 on:
   pull_request:
     types: [opened, synchronize]
-  push:
-    branches:
-      - develop
-      - master
-
 jobs:
   checks:
     runs-on: ubuntu-latest
