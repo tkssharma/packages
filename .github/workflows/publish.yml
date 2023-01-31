@@ -4,6 +4,7 @@ on:
     types: [closed]
     branches:
       - development
+      - develop
       - main
       - master
 
