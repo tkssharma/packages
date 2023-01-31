@@ -3,6 +3,7 @@
   "private": true,
   "scripts": {
     "release": "lerna publish --loglevel 5",
+    "generate:ci": "echo //npm.pkg.github.com/:_authToken=$GH_ACCESS_TOKEN >> ~/.npmrc",
     "release:ci": "lerna publish from-git --loglevel 5 --yes",
     "release:pkg:ci": "lerna publish from-package --loglevel 5 --no-git-reset --yes",
     "version:ci": "lerna version --loglevel 5 --conventional-commits --yes",
