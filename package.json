@@ -5,7 +5,7 @@
     "release": "lerna publish --loglevel 5",
     "release:ci": "lerna publish from-git --loglevel 5 --yes",
     "release:pkg:ci": "lerna publish from-package --loglevel 5 --no-git-reset --yes",
-    "version:ci": "lerna version --loglevel 5 --conventional-commits --conventional-graduate --yes",
+    "version:ci": "lerna version --loglevel 5 --conventional-commits --yes",
     "version:prerelease:ci": "lerna version --loglevel 5 --conventional-commits --conventional-prerelease --preid beta --yes",
     "build": "lerna run build",
     "test": "lerna run test",
