@@ -1,6 +1,6 @@
 {
   "name": "@tkssharma/tree-builder",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "rating configurations builder and validator",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
