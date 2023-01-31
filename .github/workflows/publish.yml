@@ -28,11 +28,11 @@ jobs:
         run: |
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor}}@users.noreply.github.com"
+          npm run generate:ci
 
           if [ ${{ github.base_ref }} = development ]; then
             npm run version:prerelease:ci--yes
           else
             npm run version:ci
           fi
-          npm run generate:ci
           npm run release:ci
