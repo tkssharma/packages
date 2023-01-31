@@ -22,6 +22,9 @@
   "bugs": {
     "url": "https://gitlab.com/cdc3-dev/toolbox/issues"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "engines": {
     "node": ">=14.x",
     "npm": ">=6.14.x"
